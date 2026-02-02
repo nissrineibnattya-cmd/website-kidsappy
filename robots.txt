@@ -1,0 +1,26 @@
+# Robots.txt pour Kidsappy Consulting
+# https://www.kidsappy.fr
+
+# Autoriser tous les robots d'indexation
+User-agent: *
+Allow: /
+
+# Interdire l'indexation de fichiers système (si présents)
+Disallow: /cgi-bin/
+Disallow: /.well-known/
+
+# Sitemap
+Sitemap: https://www.kidsappy.fr/sitemap.xml
+
+# Délai entre les requêtes (optionnel, en secondes)
+Crawl-delay: 10
+
+# Robots spécifiques
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
